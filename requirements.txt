@@ -1,6 +1,6 @@
 packaging
 ninja
-causal-conv1d
+causal-conv1d==1.1.1
 transformers==4.35.0
 mamba-ssm==1.1.2
 accelerate==0.25.0
