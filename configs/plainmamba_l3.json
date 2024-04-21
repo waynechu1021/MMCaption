@@ -1,0 +1,20 @@
+{
+    "model_type":"plainmamba",
+    "patch_size": 16,
+    "in_chans": 3,
+    "depths": 36,
+    "dims": 448,
+    "stages":35,
+    "d_state": 16,
+    "dt_rank": "auto",
+    "ssm_ratio": 2.0,
+    "attn_drop_rate": 0.0,
+    "drop_rate": 0.0,
+    "drop_path_rate": 0.1,
+    "mlp_ratio": 0.0,
+    "patch_norm": true,
+    "downsample_version": "v1",
+    "use_checkpoint": false,
+    "out_indices": [0, 1, 2, 3],
+    "pretrained": "pretrained_model/vision_encoder/plainmamba_l3_new.pth"
+  }

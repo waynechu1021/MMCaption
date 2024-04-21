@@ -1,0 +1,8 @@
+{
+    "model_type":"videomamba",
+    "patch_size": 16,
+    "depths": 32,
+    "dims":576,
+    "stages":31,
+    "pretrained": "/ssd1/zhuweiye/Multimodal-Mamba/pretrained_model/vision_encoder/videomamba_m16_k400_mask_pt_f8_res224.pth"
+  }

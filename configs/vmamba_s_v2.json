@@ -1,0 +1,20 @@
+{
+    "model_type":"vmamba",
+    "patch_size": 4,
+    "in_chans": 3,
+    "depths": [2, 2, 15, 2],
+    "dims": [96, 192, 384, 768],
+    "stages":3,
+    "ssm_d_state": 1,
+    "dt_rank": "auto",
+    "ssm_ratio": 2.0,
+    "attn_drop_rate": 0.0,
+    "drop_rate": 0.0,
+    "drop_path_rate": 0.1,
+    "mlp_ratio": 4.0,
+    "patch_norm": true,
+    "downsample_version": "v3",
+    "use_checkpoint": false,
+    "out_indices": [0, 1, 2, 3],
+    "pretrained": "/ssd1/zhuweiye/Multimodal-Mamba/pretrained_model/vision_encoder/vssm_small_0229_ckpt_epoch_222.pth"
+  }

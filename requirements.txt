@@ -1,0 +1,14 @@
+packaging
+ninja
+causal-conv1d
+transformers==4.35.0
+mamba-ssm==1.1.2
+accelerate==0.25.0
+bitsandbytes==0.41.3
+scipy==1.11.4
+fvcore
+einops
+timm
+pycocoevalcap
+tensorboardX==2.6.2.2
+wandb==0.16.2
